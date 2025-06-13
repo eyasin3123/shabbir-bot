@@ -153,7 +153,7 @@ try{
 module.exports.handleEvent = async function ({ api, event }) {
 try{
     const body = event.body ? event.body.toLowerCase() : ""
-    if(body.startsWith("sumi") || body.startsWith("riya") || body.startsWith("সুমি")){
+    if(body.startsWith("sumi") || body.startsWith("riya") || body.startsWith("shabbir")){
         const arr = body.replace(/^\S+\s*/, "")
       if(!arr) {
                                      await api.sendMessage("টুকি🫣🫣", event.threadID, (error, info) => {
